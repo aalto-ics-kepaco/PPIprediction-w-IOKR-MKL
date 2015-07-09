@@ -1,6 +1,8 @@
 function rcorr = MKL(KKsingle,yy,Combtype,trset),
    % multiple kernel learning, returns a correlation score for each of the data sources depending how well they align with the output labels
    % Note: the computation uses only the data from the training set
+   % Note: to run the code you need to have CVX installed (ie http://cvxr.com/cvx/)
+   
    % inputs: %%%%%%%%%%%%%%%%%%
    %   KKsingle: linear kernel on the input features concatenated for both species, one for each data source
    %    compute KKsingle as follows %%%%%%%%%%%%%%
